@@ -9,7 +9,7 @@
     // Header and Footer
     let header-content = context {
         let align-dir = if print-mode == "twoside" {
-            if calc.even(here().page()) { left } else { right}
+            if calc.even(here().page()) { left } else { right }
         } else {
             right
         }
@@ -39,7 +39,7 @@
             width: binding-width,
             height: 100%,
             fill: luma(240),
-            stroke: none
+            stroke: none,
         )
 
         if print-mode == "twoside" {

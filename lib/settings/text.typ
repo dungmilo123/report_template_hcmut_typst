@@ -1,4 +1,4 @@
-#let setup-text(lang: "en")={
+#let setup-text(lang: "en", body)={
     // Set paragraph rules
     set par(
         justify: true,
@@ -16,4 +16,10 @@
     )
 
     show raw: set text(font: "JetBrains Mono") // for code blocks
+
+    set heading(numbering: "1.1")
+    show heading: set block(above: 2em, below: 1em)
+    show heading.where(level: 1): set text(size: 14pt)
+    show heading.where(level: 2): set text(size: 12pt)
+    body
 }
