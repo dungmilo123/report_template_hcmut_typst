@@ -1,6 +1,6 @@
-#let setup-code() = {
+#let setup-code(body) = {
     // Inline code
-    show raw.where(block: false):box.with(
+    show raw.where(block: false): box.with(
         fill: luma(240),
         inset: (x: 3pt, y: 0pt),
         outset: (y: 3pt),
@@ -17,4 +17,6 @@
     )
 
     show raw: set text(font: "JetBrains Mono", size: 10pt)
+
+    body
 }

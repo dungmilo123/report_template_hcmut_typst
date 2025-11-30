@@ -70,7 +70,7 @@
         margin: margin-dict,
         header: header-content,
         footer: footer-content,
-        background: background-content,
+        //background: background-content,
     )
 
     body
