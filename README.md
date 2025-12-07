@@ -19,7 +19,7 @@
        subject: "CO2039 - Advanced Operating Systems",
        project: "Assignment 1",
        author: "Nguyen Van A",
-       instructors: ("Dr. Truong Thi Thai Minh",),
+       instructors: ("Dr. Nguyen Van A",),
        implementers: (("Nguyen Van A", "2012345"),),
    )
 
@@ -86,7 +86,7 @@ Configure your document in [`main.typ`](main.typ:3) using [`report.with()`](lib/
     subject: "CO2039 - Hệ điều hành nâng cao",
     project: "Bài tập lớn 1",
     author: "Nguyễn Văn A",
-    instructors: ("TS. Trương Thị Thái Minh",),
+    instructors: ("TS. Nguyễn Văn A",),
     implementers: (("Nguyễn Văn A", "2012345"),),
 )
 ```

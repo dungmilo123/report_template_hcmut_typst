@@ -5,7 +5,7 @@
     subject: "CO2039 - Advanced Operating Systems",
     project: "Assignment 1",
     author: "Nguyen Van A",
-    instructors: ("Dr. Truong Thi Thai Minh",),
+    instructors: ("Dr. Nguyen Van A",),
     implementers: (("Nguyen Van A", "2012345"),),
     // toc: false // Uncomment to hide TOC
 )
